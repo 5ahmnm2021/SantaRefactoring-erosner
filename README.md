@@ -5,7 +5,7 @@ This is a simple 2D side-scroll game. The Santa runs from left to right and has 
 The game ends when the Santa hits an obstacle.  The goal is to avoid as many obstacles as possible.
 
 ### Development platform: 
-Windows 10, Unity version 2019.1.14f1, Visual Studio Community 2017, Scripting Runtime Version: .NET 4.0
+MAC OS Catalina 10.15.6, Unity version 2020.1.5f1, Visual Studio for Mac Community 2019 8.3.11, Scripting Runtime Version: .NET 4.0
 
 ### Target platform: 
 WebGl and Standalone, RefRes: 1920 * 1080
@@ -63,4 +63,4 @@ Only one level is implemented.
 * Use UI elements and manipulate UI elements with scrips
 
 
-Copyright by smeerws
+Copyright by erosner
