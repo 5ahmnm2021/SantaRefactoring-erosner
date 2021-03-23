@@ -2,6 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
+    private const string V = "Ground";
     Rigidbody2D rb;
     Animator anim;
     [SerializeField] float jumpForce;
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Jump");
 
         GameManager.instance.IncrementScore();
+
     }
 
     private bool SetGameOverTrue()
@@ -44,7 +46,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)   {
-        if(collision.gameObject.tag == "Ground")
+        if(collision.gameObject.tag == V)
         {
             grounded = true;}
     }
